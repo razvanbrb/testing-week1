@@ -8,8 +8,11 @@
  */
 const isItThere = (arrOfStrings, toFind) => {
   let exists = false;
-  for (let _ of _) {
-
+  for (let item of arrOfStrings ) {
+    if (item === toFind) {
+      exists = true 
+    }
+      
   }
   return exists;
 };
